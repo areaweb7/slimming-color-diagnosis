@@ -15,7 +15,7 @@ export default function Home() {
                 {/* Hero Image */}
                 <div className="relative w-full aspect-square max-w-[300px] mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                     <Image
-                        src="/images/ito-azusa.jpg"
+                        src="/slimming-color-diagnosis/images/ito-azusa.jpg"
                         alt="ハンバーガーを持って微笑む伊藤あずさ"
                         fill
                         className="object-cover"
