@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青の開拓者（肝タイプ） - 診断結果</title>
+    <!-- Tailwind CSS (CDN for standalone usage in UTAGE) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: "#FFE000",
+                            blue: "#00A0E9",
+                            red: "#E60012",
+                            deepYellow: "#FFD900",
+                            silver: "#C0C0C0",
+                            black: "#1A1A1A",
+                        }
+                    },
+                    animation: { "pulse-fast": "shine 3s ease-in-out infinite" },
+                    keyframes: { shine: { "0%, 100%": { filter: "brightness(100%)" }, "50%": { filter: "brightness(120%)" } } }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 flex flex-col items-center min-h-screen">
+
+    <!-- === COPY FROM HERE FOR UTAGE HTML BLOCK === -->
+    <div class="w-full max-w-md mx-auto bg-white min-h-screen pb-20 shadow-2xl relative overflow-hidden font-sans">
+
+        <!-- Header Section -->
+        <div class="relative w-full bg-white text-center pt-12 pb-8 px-4 overflow-hidden">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-64 bg-gray-50 rounded-b-[50%] -z-10"></div>
+
+            <div
+                class="inline-block bg-[#1A1A1A] text-white font-bold px-4 py-1.5 rounded-full text-xs mb-6 tracking-wider">
+                あなたが痩せなかった本当の理由
+            </div>
+
+            <h2 class="text-lg font-bold text-gray-600 mb-2">あなたの内臓は…</h2>
+
+            <!-- Result Title -->
+            <div
+                class="text-5xl md:text-6xl font-black mb-1 text-[#00A0E9] tracking-tighter leading-none filters drop-shadow-sm">
+                青の開拓者
+            </div>
+            <p class="text-gray-400 font-bold mb-8 text-sm">（肝タイプ）</p>
+
+            <!-- Missing Color Alert -->
+            <div
+                class="bg-[#E60012]/10 border-2 border-[#E60012]/20 mx-auto max-w-sm rounded-xl p-4 text-[#E60012] font-bold">
+                <span class="block text-2xl mb-1">⚠️</span>
+                内臓の「青（緑）」が<br>たりていません！
+            </div>
+        </div>
+
+        <!-- Advice Card -->
+        <div class="px-6 relative z-10 -mt-2">
+            <div
+                class="w-full shadow-xl rounded-xl bg-gradient-to-br from-white to-gray-50 overflow-hidden relative border border-gray-100">
+                <!-- Tape Decoration -->
+                <div
+                    class="absolute -top-3 left-1/2 -translate-x-1/2 w-32 h-6 bg-[#FFE000]/50 rotate-[-2deg] shadow-sm z-20">
+                </div>
+
+                <div class="p-8 pt-10 space-y-8 text-center">
+                    <div class="space-y-4">
+                        <h3 class="font-bold text-xl text-gray-800">
+                            <span class="bg-[#FFE000]/50 px-2">食事制限</span>は、<br>逆効果でした。
+                        </h3>
+                        <p class="text-lg font-bold text-gray-700 leading-relaxed whitespace-pre-wrap">
+                            今日からハンバーガーを食べてもOK。<br>ただし、「大量のレタス」や「レモン水」を足してください。</p>
+                    </div>
+
+                    <div
+                        class="bg-white border-2 border-[#1A1A1A] rounded-xl p-4 text-left relative shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                        <div
+                            class="absolute -top-3 -left-3 bg-[#1A1A1A] text-white text-xs font-bold px-3 py-1 rounded-lg rotate-[-5deg]">
+                            WHY?</div>
+                        <p class="text-sm font-bold text-gray-800 leading-normal pt-2">
+                            <span class="text-gray-400 text-xs block mb-1">なぜ、食べても痩せるのか？</span>
+                            酸味が油を急速分解し、溜まった怒りのエネルギーを脂肪燃焼力に変えるからです。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Registration Form Area for UTAGE -->
+        <div class="p-6 mt-8">
+            <div class="bg-[#FFE000]/10 border-2 border-[#FFE000] rounded-xl p-6 text-center">
+                <h3 class="font-bold text-xl mb-4 text-[#1A1A1A]">▼ 詳しい解析結果を受け取る ▼</h3>
+
+                <!-- PLACE UTAGE FORM CODE HERE -->
+                <div class="bg-white p-4 rounded border border-gray-300 text-gray-400 text-sm">
+                    ここにUTAGEの登録フォームを貼り付けてください
+                </div>
+                <!-- END UTAGE FORM CODE -->
+            </div>
+        </div>
+
+    </div>
+    <!-- === END COPY === -->
+
+</body>
+
+</html>
